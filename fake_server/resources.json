@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "ruben",
+      "email": "ruben123@gmail.com",
+      "password": "1223",
+      "admin": "true"
+    },
+    {
+      "id": 2,
+      "name": "cecilia123",
+      "email": "cecilia123@gmail.com",
+      "password": "1223",
+      "admin": "false"
+    },
+    {
+      "id": 3,
+      "name": "commander951",
+      "email": "commander951@gmail.com",
+      "password": "1223",
+      "admin": "false"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "ownerId": 1,
+      "name": "Parrilla 83",
+      "description": "Altos choripanes con chimi tienen ",
+      "capacity": 50,
+      "currentVisitors": 30,
+      "geolocation": {
+        "latitude": -34.6084956,
+        "longitude": -58.4297887
+      },
+      "images": [
+        {
+          "url": "https://img.guiaoleo.com.ar/unsafe/938x528/filters:fill(green)/photo_2309_1.jpg-fdd06146-f4e4-11e4-be7b-d3500e263ce1_s0.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "ownerId": 1,
+      "name": "Food truck",
+      "description": "Altas hambargas con pan de papa",
+      "capacity": 25,
+      "currentVisitors": 12,
+      "geolocation": {
+        "latitude": -34.6099496,
+        "longitude": -58.4528347
+      },
+      "images": [
+        {
+          "url": "https://static.wixstatic.com/media/3d96c6_b0aba1dd6d9a44cf89968c77b743ad35~mv2.jpg/v1/fill/w_640,h_520,al_c,q_80,usm_0.66_1.00_0.01/3d96c6_b0aba1dd6d9a44cf89968c77b743ad35~mv2.webp"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "ownerId": 3,
+      "name": "McDonalds",
+      "description": "Ya no hay sundaes gratis con la 365",
+      "capacity": 102,
+      "currentVisitors": 17,
+      "geolocation": {
+        "latitude": -34.6029189,
+        "longitude": -58.4679569
+      },
+      "images": [
+        {
+          "url": "https://d500.epimg.net/cincodias/imagenes/2015/01/30/franquicias/1422630557_593175_1422630724_noticia_normal.jpg"
+        }
+      ]
+    }
+  ],
+  "checkin": {},
+  "checkout": {},
+  "report": {}
+}

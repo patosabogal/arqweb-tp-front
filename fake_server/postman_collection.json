@@ -1,0 +1,193 @@
+{
+	"info": {
+		"_postman_id": "f5625241-b354-4beb-9bb5-d4d0e75def8d",
+		"name": "AAW_TP - COVID",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/users",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/locations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/locations",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"locations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/locations",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"ownerId\": 3,\n    \"name\": \"McDonalds\",\n    \"description\": \"Ya no hay sundaes gratis con la 365\",\n    \"capacity\": 102,\n    \"currentVisitors\": 17,\n    \"geolocation\": {\n        \"latitude\": -34.6029189,\n        \"longitude\": -58.4679569\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/locations",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"locations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/checkin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"ownerId\": 3,\n    \"name\": \"McDonalds\",\n    \"description\": \"Ya no hay sundaes gratis con la 365\",\n    \"capacity\": 102,\n    \"currentVisitors\": 17,\n    \"geolocation\": {\n        \"latitude\": -34.6029189,\n        \"longitude\": -58.4679569\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/locations",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"locations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/checkout",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"ownerId\": 3,\n    \"name\": \"McDonalds\",\n    \"description\": \"Ya no hay sundaes gratis con la 365\",\n    \"capacity\": 102,\n    \"currentVisitors\": 17,\n    \"geolocation\": {\n        \"latitude\": -34.6029189,\n        \"longitude\": -58.4679569\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/locations",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"locations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/report (positive)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/report?status=positive",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"report"
+					],
+					"query": [
+						{
+							"key": "status",
+							"value": "positive"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/report (negative)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/report?status=negative",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"report"
+					],
+					"query": [
+						{
+							"key": "status",
+							"value": "negative"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
